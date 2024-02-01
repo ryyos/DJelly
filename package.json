@@ -1,0 +1,15 @@
+{
+  "name": "djelly",
+  "version": "0.0.1",
+  "description": "My first project using Django and tailwind",
+  "main": "manage.py",
+  "scripts": {
+    "dev": "tailwindcss -i static/tailwind/tailwind.css -o static/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rio Dwi Saputra",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
